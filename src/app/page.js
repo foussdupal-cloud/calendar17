@@ -62,7 +62,7 @@ export default function Home() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4 text-black">
         <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-gray-100">
-          <h1 className="text-2xl font-bold mb-6 text-center">Calendar 17 📅</h1>
+          <h1 className="text-2xl font-bold mb-6 text-center">Calendar 17📅</h1>
           <input type="email" placeholder="Email" className="w-full mb-4 p-3 border rounded-lg bg-white" value={email} onChange={(e) => setEmail(e.target.value)} />
           <input type="password" placeholder="Mot de passe" className="w-full mb-6 p-3 border rounded-lg bg-white" value={password} onChange={(e) => setPassword(e.target.value)} />
           <div className="flex gap-4">
